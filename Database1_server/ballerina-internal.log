@@ -1,0 +1,9 @@
+[2019-03-26 12:00:31,732] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Remote client closed the connection before initiating inbound request  
+[2019-03-26 12:03:27,615] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Idle timeout triggered before initiating outbound response  
+[2019-03-26 12:05:52,149] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Remote client closed the connection before initiating inbound request  
+[2019-03-26 12:14:26,786] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Remote client closed the connection before initiating inbound request  
+[2019-03-26 12:16:15,147] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Remote client closed the connection before initiating inbound request  
+[2019-03-26 19:34:06,642] WARN  {com.zaxxer.hikari.pool.HikariPool} - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h12m52s914ms193µs300ns).  
+[2019-03-26 20:07:30,995] WARN  {com.zaxxer.hikari.pool.HikariPool} - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m54s319ms217µs900ns).  
+[2019-03-26 21:00:45,296] WARN  {com.zaxxer.hikari.pool.HikariPool} - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s153ms755µs300ns).  
+[2019-03-27 07:39:46,424] WARN  {com.zaxxer.hikari.pool.HikariPool} - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h2m23s566ms897µs900ns).  
