@@ -19,7 +19,7 @@ type Customer record {
 };
 
 listener http:Listener httpListener = new(9092);
-//map<json> ordersMap = {"Student":{"ID":2,"age":26,"name":"Thar"}};
+
 @http:ServiceConfig { basePath: "/customerinfo" }
 
 service orderMgt on httpListener {
@@ -36,9 +36,6 @@ service orderMgt on httpListener {
         if (selectRet is table<Customer>) {
             var jsonConversionRet = json.convert(selectRet);
             if (jsonConversionRet is json) {
-                //foreach var row in selectRet {
-                //    io:println("Customer:" + row.id + "|" + row.vehicleNo + "|" + row.name+"|"+row.quantity);
-                //}
                 http:Response response = new;
                 if (jsonConversionRet == null) {
                     jsonConversionRet = "Order cannot be found.";
